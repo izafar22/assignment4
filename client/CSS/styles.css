@@ -1,0 +1,65 @@
+
+.container{
+    width:520px;
+    height:520px;
+    background-color:green;
+    position:absolute;
+    margin-top:200px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    left:600px;
+    top:-100px;
+}
+.numchart{
+    width: 50px;
+    height: 50px;
+    color:#000;
+    font-size: 22px;
+    border: 1px solid #24735c;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-family: mclaren;
+    position:relative;
+    background-color: white;
+}
+#player1
+{
+    position: absolute;
+    top: 84px;
+    left: 32px;
+    font-size: 26px;
+    font-family: GillSansInfant !important;
+}
+#audioplayer1{    
+    left: 390px;
+    width: 40px;
+    height: 39px;
+    position: absolute;
+    top: 8px;
+    background-image: url(images/audioICON.png);
+    background-size: contain;
+    z-index: 1;
+}
+#audioplay1{
+    left: 10px;
+    width: 40px;
+    height: 39px;
+    position: absolute;
+    top: 25px;
+    background-image: url(images/audioICON.png);
+    background-size: contain;
+    z-index: 1;
+    opacity: 0.5;
+}
+#leftPanel{
+    position: absolute;
+    left: 20px;
+    width: 440px;
+    height: 330px;
+    background-color: rgba(200, 219, 182, 0.992157);
+    box-shadow: rgba(0, 0, 30, 0.509804) 0px 2px 8px 5px;
+    top: 166px;
+    padding: 20px;
+}
